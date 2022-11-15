@@ -1,0 +1,13 @@
+.card {
+  background-color: var(--color-green-10);
+  border-radius: var(--border-radius-default);
+  margin-bottom: var(--layout-base-gutter);
+  min-height: 100%;
+  padding: var(--layout-base-gutter);
+}
+
+@media screen and (min-width: 63.9375em) {
+  .card {
+    margin-bottom: initial;
+  }
+}

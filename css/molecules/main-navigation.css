@@ -1,0 +1,25 @@
+ul.main-navigation {
+  display: flex;
+  gap: var(--layout-base-gutter);
+  justify-content: center;
+  margin: var(--layout-medium-gutter) auto;
+}
+
+.main-navigation a {
+  color: var(--color-neutral-90);
+  border: 2px solid var(--color-green-60);
+  border-bottom: 5px solid var(--color-red-60);
+  border-radius: var(--border-radius-default);
+  padding: 1rem;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 64.9375em) {
+  ul.main-navigation {
+    margin: initial;
+  }
+
+  .main-navigation a {
+    border-bottom: 5px solid var(--color-yellow-50);
+  }
+}

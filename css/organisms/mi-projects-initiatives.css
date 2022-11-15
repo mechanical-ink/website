@@ -1,0 +1,51 @@
+.mi-projects-initiatives .section-heading {
+  background-color: var(--color-green-30);
+  border-bottom: 10px solid var(--color-green-90);
+  color: var(--color-green-90);
+  padding: var(--layout-base-gutter);
+}
+
+.mi-projects-initiatives .card-list {
+  background-color: var(--color-green-20);
+  padding: var(--layout-base-gutter);
+}
+
+ul.project-initiative-links {
+  margin: var(--layout-reduced-gutter) auto;
+}
+
+.project-initiative-links li {
+  margin-bottom: var(--layout-reduced-gutter);
+}
+
+@media screen and (min-width: 63.9375em) {
+  .mi-projects-initiatives .section-heading,
+  .mi-projects-initiatives .card-list {
+    padding: var(--layout-base-gutter) var(--layout-wide-gutter);
+  }
+
+  .mi-projects-initiatives .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--layout-medium-gutter);
+    justify-content: space-between;
+    padding: var(--layout-wide-gutter);
+  }
+
+  .mi-projects-initiatives li {
+    flex: 0 1 45%;
+  }
+}
+
+.project-initiative-links a {
+  align-items: center;
+  display: flex;
+  gap: var(--layout-reduced-gutter);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .project-initiative-links a {
+    display: flex;
+    gap: var(--layout-base-gutter);
+  }
+}

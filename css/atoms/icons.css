@@ -1,0 +1,26 @@
+.icon::before {
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-github::before {
+  background-image: url(../../assets/icons/mark-github.svg);
+}
+
+.icon-linkedin::before {
+  background-image: url(../../assets/icons/linkedin.svg);
+}
+
+.icon-social::before {
+  background-image: url(../../assets/icons/feed-discussion.svg);
+}
+
+.icon-web::before {
+  background-image: url(../../assets/icons/globe.svg);
+}

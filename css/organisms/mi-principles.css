@@ -1,0 +1,42 @@
+.mi-principles .section-heading {
+  background-color: var(--color-neutral-70);
+  color: var(--color-neutral-inverted);
+  border-bottom: 10px solid var(--color-yellow-30);
+  padding: var(--layout-base-gutter);
+}
+
+ul.mi-principles-list {
+  background-color: var(--color-neutral-90);
+  color: var(--color-neutral-inverted);
+  padding: var(--layout-base-gutter);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .mi-principles .section-heading,
+  ul.mi-principles-list {
+    padding: var(--layout-base-gutter) var(--layout-wide-gutter);
+  }
+}
+
+.mi-principles-list li {
+  background-color: rgba(153, 158, 235, 0.2);
+  border-left: 5px solid var(--color-yellow-30);
+  padding: var(--layout-base-gutter);
+  margin-bottom: var(--layout-base-gutter);
+}
+
+.mi-principles-list strong {
+  color: var(--color-yellow-30);
+}
+
+@media screen and (min-width: 63.9375em) {
+  ul.mi-principles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--layout-base-gutter);
+  }
+
+  .mi-principles-list li {
+    flex: 0 1 30%;
+  }
+}

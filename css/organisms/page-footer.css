@@ -1,0 +1,24 @@
+.page-footer {
+  padding: var(--layout-base-gutter);
+  text-align: center;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .page-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--layout-base-gutter) var(--layout-wide-gutter);
+  }
+}
+
+.footer-links {
+  margin-top: var(--layout-medium-gutter);
+}
+
+.footer-links ul {
+  display: flex;
+  gap: var(--layout-reduced-gutter);
+  justify-content: center;
+  margin-bottom: var(--layout-base-gutter);
+}

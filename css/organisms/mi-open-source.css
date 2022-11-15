@@ -1,0 +1,32 @@
+.mi-open-source {
+  background-color: var(--color-green-10);
+  padding: var(--layout-base-gutter);
+}
+
+@media screen and (min-width: 63.9375em) {
+  .mi-open-source {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--layout-base-gutter) var(--layout-wide-gutter);
+    padding-top: var(--layout-wide-gutter);
+  }
+}
+
+.mi-open-source .category-container {
+  margin-bottom: var(--layout-medium-gutter);
+}
+
+.mi-open-source .category-container::before {
+  background: transparent url("../../assets/icons/cube.svg") center center
+    no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 2.5rem;
+  margin-bottom: var(--layout-small-gutter);
+  width: 2.5rem;
+}
+
+.mi-open-source .category-container ul {
+  padding-left: var(--layout-reduced-gutter);
+}

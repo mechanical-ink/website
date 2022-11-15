@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Mechanical Ink website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechanical-ink/website.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "website"
+  ],
+  "author": "Mechanical Ink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mechanical-ink/website/issues"
+  },
+  "homepage": "https://github.com/mechanical-ink/website#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.0",
+    "@parcel/transformer-webmanifest": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}

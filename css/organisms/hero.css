@@ -1,0 +1,45 @@
+.hero {
+  background-color: var(--color-red-90);
+  color: var(--color-neutral-10);
+  padding: var(--layout-base-gutter);
+}
+
+@media screen and (min-width: 64.9375em) {
+  .hero {
+    align-items: center;
+    background: transparent url("../../assets/hero/hero.jpeg") -200px top no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 1024px;
+    position: relative;
+    width: 100%;
+  }
+
+  .hero-content {
+    position: absolute;
+    left: 50%;
+    max-width: 45%;
+  }
+}
+
+@media screen and (min-width: 89.9375em) {
+  .hero {
+    background-position: left top;
+  }
+}
+
+.hero-title {
+  font-size: var(--typography-font-size-display);
+  line-height: 1;
+  margin-bottom: var(--layout-reduced-gutter);
+}
+
+.hero-subtitle {
+  display: block;
+  font-size: var(--typography-font-size-xxl);
+}
+
+.mi-mission {
+  font-size: var(--typography-font-size-small-medium);
+}

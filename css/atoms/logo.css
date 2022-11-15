@@ -1,0 +1,24 @@
+.logo {
+  background: transparent url(../../assets/mechanical-ink.svg) no-repeat center
+    center;
+  display: block;
+  height: 93px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.logo-footer {
+  background-image: url(../../assets/logo.svg);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .logo {
+    flex: 0 0 300px;
+    margin: initial;
+    width: initial;
+  }
+
+  .logo-footer {
+    flex: 0 0 100px;
+  }
+}

@@ -4,10 +4,17 @@
   padding: var(--layout-base-gutter);
 }
 
+@media screen and (min-width: 47.9375em) {
+  .hero {
+    padding: var(--layout-medium-gutter) var(--layout-wide-gutter);
+  }
+}
+
 @media screen and (min-width: 64.9375em) {
   .hero {
     align-items: center;
-    background: transparent url("../../assets/hero/hero.jpeg") -200px top no-repeat;
+    background: var(--color-yellow-60) url("../../assets/hero/hero.jpeg") -200px
+      top no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;

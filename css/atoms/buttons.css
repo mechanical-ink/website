@@ -1,0 +1,17 @@
+.button {
+  background: none;
+  background-color: var(--color-neutral-10);
+  color: var(--color-neutral-90);
+  padding: var(--layout-base-padding);
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-neutral-90);
+  color: var(--color-neutral-10);
+}
+
+.button-primary {
+  font-weight: bold;
+}

@@ -25,7 +25,7 @@
 
   .hero-content {
     position: absolute;
-    left: 50%;
+    left: 52%;
     max-width: 45%;
   }
 }
@@ -45,8 +45,4 @@
 .hero-subtitle {
   display: block;
   font-size: var(--typography-font-size-xxl);
-}
-
-.mi-mission {
-  font-size: var(--typography-font-size-small-medium);
 }

@@ -9,6 +9,10 @@
   width: 1.5rem;
 }
 
+.icon-discord::before {
+  background-image: url(../../assets/icons/discord.svg);
+}
+
 .icon-github::before {
   background-image: url(../../assets/icons/mark-github.svg);
 }
@@ -23,4 +27,8 @@
 
 .icon-web::before {
   background-image: url(../../assets/icons/globe.svg);
+}
+
+.icon-youtube::before {
+  background-image: url(../../assets/icons/youtube.svg);
 }

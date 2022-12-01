@@ -14,7 +14,7 @@ table caption {
 
 .data-table caption {
   font-family: var(--typography-font-heading);
-  font-size: var(--typography-font-size-large);
+  font-size: var(--typography-font-size-medium);
   font-weight: bold;
   line-height: var(--typography-line-height-heading);
   margin-bottom: var(--layout-base-gutter);

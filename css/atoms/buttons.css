@@ -15,3 +15,8 @@
 .button-primary {
   font-weight: bold;
 }
+
+.button-standard {
+  background-color: var(--color-blue-70);
+  color: var(--color-neutral-10);
+}

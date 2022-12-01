@@ -205,6 +205,10 @@ strong {
   padding: var(--layout-wide-gutter);
 }
 
+ul.project-links {
+  margin: var(--layout-medium-gutter) 0;
+}
+
 /* Reset some list default styling. Useful when creating custom styled lists */
 .reset-list {
   list-style: none;

@@ -209,6 +209,19 @@ ul.project-links {
   margin: var(--layout-medium-gutter) 0;
 }
 
+ul.project-links .button {
+  display: block;
+  margin: var(--layout-reduced-gutter) 0;
+}
+
+@media screen and (min-width: 63.9375em) {
+  ul.project-links {
+    display: flex;
+    grid-gap: var(--layout-reduced-gutter);
+    gap: var(--layout-reduced-gutter);
+  }
+}
+
 /* Reset some list default styling. Useful when creating custom styled lists */
 .reset-list {
   list-style: none;

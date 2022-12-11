@@ -4,7 +4,7 @@
   "description": "Mechanical Ink website",
   "scripts": {
     "start": "npx lite-server .",
-    "build": "parcel build index.html open/index.html open/developer-toolchest/index.html open/the-mycelium-network/index.html"
+    "build": "parcel build index.html open/**/*.html"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "repository": {
